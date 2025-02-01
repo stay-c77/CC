@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Extension</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    button {
+      margin: 5px;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    .sound-buttons, .timer-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+    .timer-section {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Timer Section -->
+  <div class="timer-section">
+    <h3>Pomodoro Timer</h3>
+    <input type="number" id="timer-input" placeholder="Minutes" min="1" />
+    <div class="timer-buttons">
+      <button id="start-btn">Start</button>
+      <button id="pause-btn">Pause</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+    <div id="timer-display">25:00</div>
+  </div>
+
+  <!-- Sound Section -->
+  <div class="sound-buttons">
+    <button id="rain-sound-btn">Rain Sound</button>
+    <button id="fire-sound-btn">Fire Sound</button>
+    <button id="cafe-sound-btn">Cafe Sound</button>
+    <button id="rainoncar-sound-btn">Rain on Car Sound</button>
+  </div>
+
+  <button id="stop-sound-btn">Stop Sound</button>
+
+</body>
+<script src="popup.js"></script>
+</html>
