@@ -1,47 +1,56 @@
-# [Project Name] 🎯
+# CC: A Productivity Extension 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [CC]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Stacey Ann Sajan] - [Ama Jyothi College of Engineering]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+"CC: A Productivity Extension" is a browser extension designed to help users stay focused and organized. It includes a customizable timer for productivity sessions, a to-do list manager, a blocked sites feature to avoid distractions, and relaxing sounds to improve focus.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+In today’s fast-paced world, distractions are everywhere, especially while working or studying online. Websites like social media and entertainment platforms are just a click away. Staying productive is challenging without the right tools to limit distractions and track progress.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+This extension helps users stay focused and organized by providing:
+--A timer for structured work sessions (Pomodoro Technique, for example)
+--A to-do list to keep track of tasks
+--A blocked sites list to block distracting websites
+--Relaxing sounds to create an ideal working environment
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+
+Languages used: JavaScript, HTML, CSS
+Libraries used: Chrome Extension API, LocalStorage, etc.
+Tools used: Chrome DevTools
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
+List main components: No hardware components used (software-only project)
+List specifications: Chrome browser extension
+List tools required: Chrome browser, code editor (VS Code)
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+Clone the repository or download the project.
+Go to Chrome's Extensions page (chrome://extensions/).
+Enable Developer mode and click on Load unpacked.
+Select the project folder.
 
 # Run
-[commands]
+Open the Chrome browser.
+Ensure the extension is added via the Extensions page (chrome://extensions/).
+Click on the extension icon in the toolbar to start using the productivity features.
 
 ### Project Documentation
 For Software:
@@ -91,9 +100,7 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+--Stacey Ann Sajan: Lead developer.
 
 ---
 Made with ❤️ at TinkerHub
