@@ -2,14 +2,14 @@
 
 
 ## Basic Details
-### Team Name: [CC]
+### Team Name: CC
 
 
 ### Team Members
 - Member 1: [Stacey Ann Sajan] - [Ama Jyothi College of Engineering]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://github.com/stay-c77/CC
 
 ### Project Description
 "CC: A Productivity Extension" is a browser extension designed to help users stay focused and organized. It includes a customizable timer for productivity sessions, a to-do list manager, a blocked sites feature to avoid distractions, and relaxing sounds to improve focus.
@@ -56,19 +56,19 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![![Main Page](https://github.com/user-attachments/assets/bddcc668-ecb1-4759-8157-457d89680b1b)]
+![Main Page](https://github.com/user-attachments/assets/bddcc668-ecb1-4759-8157-457d89680b1b)
 Main page with buttons that link to different functions
 
-![![To-do List](https://github.com/user-attachments/assets/ecfc0e9e-8ed9-46cc-8ec8-37e0169f901c)]
+![To-do List](https://github.com/user-attachments/assets/ecfc0e9e-8ed9-46cc-8ec8-37e0169f901c)
 List in which you can enter and remove tasks.
 
-![![Block a Site](https://github.com/user-attachments/assets/458c3877-7859-4606-b7ce-80f642fd7bbd)](Add screenshot 3 here with proper name)
+![Block a Site](https://github.com/user-attachments/assets/458c3877-7859-4606-b7ce-80f642fd7bbd)
 Url entered in the input box will be blocked.
 
-![![Study Music](https://github.com/user-attachments/assets/b417d5c5-f811-4223-8734-10384b33b610)]
+![Study Music](https://github.com/user-attachments/assets/b417d5c5-f811-4223-8734-10384b33b610)
 Sounds that can be played together/individually to help concentration and/or relaxation 
 
-![![A Blocked Site](https://github.com/user-attachments/assets/dc0cc510-cb08-46e2-8f0a-cd0dcb0752e3)](Add screenshot 3 here with proper name)
+![A Blocked Site](https://github.com/user-attachments/assets/dc0cc510-cb08-46e2-8f0a-cd0dcb0752e3)
 An example of what a blocked site looks like when opened
 
 # Diagrams
