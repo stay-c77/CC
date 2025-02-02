@@ -42,41 +42,39 @@ List tools required: Chrome browser, code editor (VS Code)
 ### Implementation
 For Software:
 # Installation
-Clone the repository or download the project.
-Go to Chrome's Extensions page (chrome://extensions/).
-Enable Developer mode and click on Load unpacked.
-Select the project folder.
+1. Clone the repository or download the project.
+2. Go to Chrome's Extensions page (chrome://extensions/).
+3. Enable Developer mode and click on Load unpacked.
+4. Select the project folder.
 
 # Run
-Open the Chrome browser.
-Ensure the extension is added via the Extensions page (chrome://extensions/).
-Click on the extension icon in the toolbar to start using the productivity features.
+1. Open the Chrome browser.
+2. Ensure the extension is added via the Extensions page (chrome://extensions/).
+3. Click on the extension icon in the toolbar to start using the productivity features.
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![![Main Page](https://github.com/user-attachments/assets/bddcc668-ecb1-4759-8157-457d89680b1b)]
+Main page with buttons that link to different functions
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![![To-do List](https://github.com/user-attachments/assets/ecfc0e9e-8ed9-46cc-8ec8-37e0169f901c)]
+List in which you can enter and remove tasks.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![![Block a Site](https://github.com/user-attachments/assets/458c3877-7859-4606-b7ce-80f642fd7bbd)](Add screenshot 3 here with proper name)
+Url entered in the input box will be blocked.
+
+![![Study Music](https://github.com/user-attachments/assets/b417d5c5-f811-4223-8734-10384b33b610)]
+Sounds that can be played together/individually to help concentration and/or relaxation 
+
+![![A Blocked Site](https://github.com/user-attachments/assets/dc0cc510-cb08-46e2-8f0a-cd0dcb0752e3)](Add screenshot 3 here with proper name)
+An example of what a blocked site looks like when opened
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Team](Add photo of your team here)
@@ -95,9 +93,6 @@ For Hardware:
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 --Stacey Ann Sajan: Lead developer.
