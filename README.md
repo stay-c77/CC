@@ -2,11 +2,10 @@
 
 
 ## Basic Details
-### Team Name: CC
-
+### Team Name: Stacey Ann Sajan's team
 
 ### Team Members
-- Member 1: [Stacey Ann Sajan] - [Ama Jyothi College of Engineering]
+- Member 1: Stacey Ann Sajan - Amal Jyothi College of Engineering
 
 ### Hosted Project Link
 https://github.com/stay-c77/CC
