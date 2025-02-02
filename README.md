@@ -71,22 +71,20 @@ Sounds that can be played together/individually to help concentration and/or rel
 An example of what a blocked site looks like when opened
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+Design -> Development -> Testing -> Debug -> Finalization -> Deployment
 
 
 # Build Photos
-![Team](Add photo of your team here)
+Team :
+![Me & Myself](https://github.com/user-attachments/assets/62c6fa65-e40a-4caf-943b-54374bdfc565)
 
+Components: To do list, Timer, Site blocker, Study music
 
-![Components](Add photo of your components here)
-*List out all components shown*
+Build: ![Extensions](https://github.com/user-attachments/assets/5d6c97b7-1c60-4b3c-acc0-50df01984a40)
+Go to chrome extensions on developer mode and click load unpacked to upload the folder
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+Final Product [final](https://github.com/user-attachments/assets/9d97a264-3522-4130-ad72-13b2734abd58)
 
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
