@@ -1,83 +1,42 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Cambria';
   padding: 20px;
   text-align: center;
-  background-color: #f4f4f9;
+  background: url('greenimg.jpg');
+  background-size: cover;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 24px;
-  color: #333;
+  font-size: 42px;
+  color: #d3d1d1;
 }
-
-#timer {
-  margin: 20px 0;
+p{
+  color: white;
+  font-size: 20px;
+}
+.blockDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.341);
+  border-radius: 10px;
   padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 400px;
+
 }
 
-#time-display {
-  font-size: 32px;
-  font-weight: bold;
-  margin: 20px 0;
-}
-
-button {
-  padding: 10px 20px;
+button{
+  border: 1px solid rgb(148, 196, 181);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 9px;
   font-size: 16px;
-  margin: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button#start-pause-btn {
-  background-color: #4CAF50;
-  color: white;
-}
-
-button#stop-btn {
-  background-color: #f44336;
-  color: white;
-}
-
-button#reset-btn {
-  background-color: #2196F3;
-  color: white;
-}
-
-#task-section {
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#task-section input[type="text"] {
-  width: 80%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-#task-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-#task-list li {
-  margin: 5px 0;
-  background-color: #f9f9f9;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.done-btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.289);
 }

@@ -3,62 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Productivity Extension</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      width: 350px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    button {
-      margin: 5px;
-      padding: 10px;
-      background-color: #3498db;
-      color: white;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    button:hover {
-      background-color: #2980b9;
-    }
-    .sound-buttons, .timer-buttons {
-      display: flex;
-      justify-content: space-between;
-    }
-    .timer-section {
-      margin-top: 20px;
-    }
-  </style>
+  <title>CC Extension</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
+  <!-- Main Popup -->
+  <div id="main-popup" class="popup-section">
+    <h1> CC : Increase your productivity </h2><br><br>
+    <table>
+      <tr>
+        <td><button id="timer-btn" class="main-button">Timer</button></td>
+        <td><button id="todo-btn" class="main-button">To-Do List</button></td>
+      </tr>
+      <tr>
+        <td><button id="blocked-sites-btn" class="main-button">Blocked Sites</button></td>
+        <td><button id="sounds-btn" class="main-button">Study/Calming music</button></td>
+      </tr>
+    </table>
+    
+  </div>
 
-  <!-- Timer Section -->
-  <div class="timer-section">
-    <h3>Pomodoro Timer</h3>
-    <input type="number" id="timer-input" placeholder="Minutes" min="1" />
-    <div class="timer-buttons">
+  <!-- Timer Popup -->
+  <div id="timer-popup" class="popup-section" style="display:none;">
+    <button class="back-btn">←</button>
+    <div id="timer">
+      <h4>Enter a time from 1 - 60 mins</h4><input type="number" id="timer-input" value="25" min="1" max="60">
       <button id="start-btn">Start</button>
       <button id="pause-btn">Pause</button>
-      <button id="reset-btn">Reset</button>
+      <button id="reset-btn">Reset</button><br><br>
+      <div id="timer-display">25:00</div>
     </div>
-    <div id="timer-display">25:00</div>
   </div>
 
-  <!-- Sound Section -->
-  <div class="sound-buttons">
-    <button id="rain-sound-btn">Rain Sound</button>
-    <button id="fire-sound-btn">Fire Sound</button>
-    <button id="cafe-sound-btn">Cafe Sound</button>
-    <button id="rainoncar-sound-btn">Rain on Car Sound</button>
+  <!-- To-Do List Popup -->
+  <div id="todo-popup" class="popup-section" style="display:none;">
+    <button class="back-btn">←</button>
+    <h1>Enter tasks</h1>
+    <input type="text" id="task-input" placeholder="Enter a task">
+    <button id="add-task-btn">Add Task</button>
+    <ul id="task-list"></ul>
   </div>
 
-  <button id="stop-sound-btn">Stop Sound</button>
+  <!-- Blocked Sites Popup -->
+  <div id="blocked-sites-popup" class="popup-section" style="display:none;">
+    <button class="back-btn">←</button><br>
+    <h1>Enter site to block:</h1>
+    <p>Enter full website name- (eg. www.youtube.com)<p>
+    <input type="text" id="website" placeholder="Enter a website">
+    <button id="blockButton">Block</button><br><br>
+    <div>
+      <h2 style="font-size: 18px;"> Blocked Sites: </h2>
+      <ul id="blockedSitesList"></ul>
+    </div>
 
+  </div>
+
+  <!-- Sound Control Popup -->
+  <div id="sounds-popup" class="popup-section" style="display:none;">
+    <button class="back-btn">←</button><h1>Calming Sounds</h1><br>
+    <table>
+      <tr class="tableRow">
+        <td style="padding-left: 8px; font-size: 18px;">Rain </td>
+        <td class="td1"><button id="rain-sound-btn" class="soundButton">▶</button> <button id="rain-stop" class="soundButton2">⏹</button></td>
+      </tr>
+      <tr class="tableRow">
+        <td style="padding-left: 8px; font-size: 18px;">Fireplace </td>
+        <td class="td1"><button id="fire-sound-btn" class="soundButton">▶</button> <button id="fire-stop" class="soundButton2">⏹</button></td>
+      </tr>
+      <tr class="tableRow">
+        <td style="padding-left: 8px; font-size: 18px;">Cafe </td>
+        <td class="td1"><button id="cafe-sound-btn" class="soundButton">▶</button> <button id="cafe-stop" class="soundButton2">⏹</button></td>
+      </tr>
+      <tr class="tableRow">
+        <td style="padding-left: 8px; font-size: 18px;">Rain on Car </td>
+        <td class="td1"><button id="rainoncar-sound-btn" class="soundButton">▶</button> <button id="rainoncar-stop" class="soundButton2">⏹</button></td>
+      </tr>
+      <tr class="tableRow">
+        <td style="padding-left: 8px; font-size: 18px;">White Noise </td>
+        <td class="td1"><button id="white-noise-sound-btn" class="soundButton">▶</button> <button id="white-noise-stop" class="soundButton2">⏹</button></td>
+      </tr>
+      <tr class="tableRow">
+        <td style="padding-left: 8px; font-size: 18px;">Birds </td>
+        <td class="td1"><button id="birds-sound-btn" class="soundButton">▶</button> <button id="birds-stop" class="soundButton2">⏹</button></td>
+      </tr>
+    </table>
+  </div>
+
+
+  <script src="popup.js"></script>
 </body>
-<script src="popup.js"></script>
 </html>

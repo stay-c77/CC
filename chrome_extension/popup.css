@@ -1,0 +1,163 @@
+*{
+  font-family: 'Bookman Old Style';
+  color: #201c1c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.068);
+  font-size: 14px;
+}
+body {
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  background: linear-gradient(to right, rgba(181, 199, 164, 0.8), rgba(140, 193, 210, 0.8)), url('your-background.jpg');
+}
+
+h1{
+  text-align: center;
+  color: rgb(0, 100, 75);
+  font-size: 24px;
+}
+p{
+  font-size: 14px;
+}
+
+ul {
+  background: rgba(1, 1, 1, 0.2);
+  list-style-type: none;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.banner{
+  background-color: darkslategrey;
+  top:-15px;
+  left:0px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+button {
+  margin-top: 10px;
+  font-weight:lighter;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color:rgb(255, 255, 255);
+  -webkit-filter: drop-shadow(4px 5px 2px #2222225e);
+  filter: drop-shadow(4px 5px 2px #2222225e);
+  text-align: center;
+  background-color: #6fa985;
+}
+.main-button {
+  width: 160px;
+  height: 100px;
+  text-align: center;
+  padding: 5px;
+  background-color: #68a595;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.40) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color:#1E1E1E;
+  background-color: #32896d;
+}
+
+.back-btn {
+  position: absolute;
+  left: 10px;  /* Adjust as needed */
+  top: 0;      /* Position at the top */
+  transform: translateY(0);  /* Align the top without the need for translateY(-50%) */
+  font-size: 24px;
+  cursor: pointer;
+  height: 25px;  /* You can adjust height as needed */
+  background-color: #08b8d300;  /* Transparent background */
+  padding: 0;
+  color: black;
+  width: 35px;
+}
+.back-btn:hover{
+  background-color: rgba(114, 198, 224, 0.247);
+}
+
+.delete-button{
+  background-color: #fd5b5b;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  background-size:auto;
+  font-size: small;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 3px;
+}
+.delete-button:hover{
+  background-color: #08b8d3;
+  cursor: pointer;
+}
+
+input[type="text"], input[type="number"] {
+  padding:10px;
+  border: none;
+  border-radius: 5px;
+  cursor:text;
+}
+
+.popup-section{
+  text-align: center;
+  position: relative;
+}
+
+table{
+  width: 100%;
+  text-align: left;
+  align-items: center;
+}
+.soundButton{
+  height: 35px;
+  width: 35px;
+  background-color: rgb(91, 215, 77);
+  color: black;
+  padding: 5px;
+}
+.soundButton:hover{
+  background-color: rgb(62, 150, 52);
+}
+.soundButton2{
+  height: 35px;
+  width: 35px;
+  background-color: rgb(255, 37, 37);
+  color: black;
+  padding: 5px;
+}
+.soundButton2:hover{
+  background-color: rgb(217, 21, 21);
+}
+.tableRow{
+  width: 90%;
+  height: 60px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  
+}
+
+.td1{
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#timer-display{
+  font-size: 18px;
+  text-align: center;
+}

@@ -3,9 +3,12 @@
   "name": "CC",
   "description": "A productivity extension with sound and timer functionality.",
   "version": "1.0",
-  "permissions": [
+  "permissions":[
+    "webNavigation",
+    "webRequest",
     "storage",
-    "tabs"
+    "tabs",
+    "notifications"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -22,5 +25,12 @@
     "16": "icons/icon16.jpg",
     "48": "icons/icon48.jpg",
     "128": "icons/icon128.jpg"
+  },
+  "web_accessible_resources": [
+  {
+    "resources": ["sounds/*.mp3"],
+    "matches": ["<all_urls>"]
   }
+]
+
 }
