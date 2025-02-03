@@ -76,7 +76,7 @@ Design -> Development -> Testing -> Debug -> Finalization -> Deployment
 
 # Build Photos
 Team :
-![Me & Myself]![img2](https://github.com/user-attachments/assets/3c17216d-2431-493e-9d6d-1d1223f6ab10)
+![Me & Myself](https://github.com/user-attachments/assets/3c17216d-2431-493e-9d6d-1d1223f6ab10)
 
 Components: To do list, Timer, Site blocker, Study music
 
