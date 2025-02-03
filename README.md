@@ -76,7 +76,7 @@ Design -> Development -> Testing -> Debug -> Finalization -> Deployment
 
 # Build Photos
 Team :
-![Me & Myself](https://github.com/user-attachments/assets/62c6fa65-e40a-4caf-943b-54374bdfc565)
+![Me & Myself]![img2](https://github.com/user-attachments/assets/3c17216d-2431-493e-9d6d-1d1223f6ab10)
 
 Components: To do list, Timer, Site blocker, Study music
 
@@ -89,7 +89,7 @@ Final Product [final](https://github.com/user-attachments/assets/9d97a264-3522-4
 ### Project Demo
 # Video
 https://drive.google.com/file/d/1hZvPSSArc6Z4e23nSV3gwLk9DRlD3Axd/view?usp=sharing
-This video gives a tour of my project and how it works
+This video gives a tour of my project and how it works(it's not clear from 0:06 to 0:32, apologies!)
 
 ## Team Contributions
 --Stacey Ann Sajan: Lead developer.
